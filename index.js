@@ -1,5 +1,6 @@
 import { readFile, readFileSync } from 'fs'
 import { Candidato } from './Candidato.js'
+import { generateHTML } from './exportHTML.js'
 // fs = require('fs')
 
 const rawText = readFileSync(
@@ -26,4 +27,10 @@ candidatosNaoTratados.forEach(i => {
 
 candidatos.sort((a, b) => a.NF - b.NF)
 
-console.log(candidatos)
+// console.log(candidatos)
+
+generateHTML(
+  candidatos,
+  'Candidatos constantes do 3º Edital do concurso TCE RJ Analista de TI 2022 em ordem de pontuação',
+  'Dados constantes da publicacao no edital III de 18/maio/2020 do concurso TCE-RJ Analista de TI pelo Cebraspe minerados e dispostos em ordem classificatoria de acordo com sua pontuação, ainda que provisória.'
+)

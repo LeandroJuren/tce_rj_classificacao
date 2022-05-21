@@ -1,0 +1,20 @@
+{
+  "name": "tce_rj_classificacao",
+  "version": "1.0.0",
+  "description": "Minera os dados constantes da publicacao no edital III de 18/maio/2020 do concurso TCE-RJ Analista de TI pelo Cebraspe e dispoe os candidatos em ordem classificatoria. ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroJuren/tce_rj_classificacao.git"
+  },
+  "author": "https://github.com/LeandroJuren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroJuren/tce_rj_classificacao/issues"
+  },
+  "homepage": "https://github.com/LeandroJuren/tce_rj_classificacao#readme"
+}
